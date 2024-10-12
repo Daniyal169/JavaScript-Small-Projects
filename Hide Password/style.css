@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  background: rgb(217, 117, 117);
+  background: linear-gradient(
+    90deg,
+    rgba(217, 117, 117, 1) 0%,
+    rgba(233, 134, 134, 1) 35%,
+    rgba(217, 169, 169, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.passwordBox {
+  width: 400px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.passwordBox input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+.passwordBox img {
+  width: 30px;
+  cursor: pointer;
+}

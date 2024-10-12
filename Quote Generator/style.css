@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background: rgb(223, 254, 253);
+    background: linear-gradient(90deg, rgba(223, 254, 253, 1) 0%, rgba(115, 245, 255, 1) 35%, rgba(115, 255, 244, 1) 71%, rgba(225, 255, 251, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.quoteBox {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0.1px 0.1px 30px 0.1px black;
+    color: black;
+    background-color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    width: 40%;
+}
+
+.quoteBox h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.quoteBox blockquote {
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.quoteBox blockquote::before,
+.quoteBox blockquote::after {
+    content: '"';
+
+}
+
+.quoteBox span {
+    font-family: "Poetsen One", sans-serif;
+    color: gray;
+}
+
+.quoteBox button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background: rgb(223, 254, 253);
+    background: linear-gradient(90deg, rgba(223, 254, 253, 1) 0%, rgba(115, 245, 255, 1) 35%, rgba(115, 255, 244, 1) 71%, rgba(225, 255, 251, 1) 100%);
+    transition: all 0.3s;
+}
+
+.quoteBox button:hover {
+    background: rgb(178, 247, 244);
+    background: linear-gradient(90deg, rgb(160, 254, 251) 0%, rgb(167, 244, 249) 35%, rgb(163, 244, 237) 71%, rgb(105, 239, 221) 100%);
+}

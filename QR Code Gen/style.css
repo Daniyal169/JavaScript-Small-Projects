@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background: rgb(223, 254, 253);
+    background: linear-gradient(90deg, rgba(223, 254, 253, 1) 0%, rgba(115, 245, 255, 1) 35%, rgba(115, 255, 244, 1) 71%, rgba(225, 255, 251, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.QRbox {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0.1px 0.1px 30px 0.1px black;
+    color: black;
+    background-color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    transition: all 0.3s;
+}
+
+.empBox {
+    box-shadow: 0.1px 0.1px 40px 0.1px red;
+}
+
+.QRbox p {
+    font-size: 30px;
+    margin: 10px 0px;
+    margin-bottom: 30px;
+}
+
+.QRbox input {
+    border: none;
+    outline: none;
+    padding: 12px 0px;
+    font-size: 15px;
+    border: 1px solid black;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.QRbox button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: rgb(24, 119, 242);
+    color: white;
+    width: 100%;
+}
+
+#imgBox {
+    margin: 5px 0px;
+    transition: all 0.3s;
+}
